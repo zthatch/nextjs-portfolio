@@ -29,9 +29,9 @@ const computedFields = {
       dateModified: doc.publishedAt,
       description: doc.summary,
       image: doc.image
-        ? `https://leerob.io${doc.image}`
-        : `https://leerob.io/og?title=${doc.title}`,
-      url: `https://leerob.io/blog/${doc._raw.flattenedPath}`,
+        ? `https://zachary-thatcher-portfolio.vercel.app${doc.image}`
+        : `https://zachary-thatcher-portfolio.vercel.app/og?title=${doc.title}`,
+      url: `https://zachary-thatcher-portfolio.vercel.app/blog/${doc._raw.flattenedPath}`,
       author: {
         '@type': 'Person',
         name: 'Lee Robinson',

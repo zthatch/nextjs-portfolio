@@ -23,17 +23,17 @@ const graphik = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://leerob.io'),
+  metadataBase: new URL('https://zachary-thatcher-portfolio.vercel.app/'),
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Zachary Thatcher',
+    template: '%s | Zachary Thatcher',
   },
   description: 'Developer, writer, and creator.',
   openGraph: {
-    title: 'Lee Robinson',
+    title: 'Zachary Thatcher',
     description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    url: 'https://zachary-thatcher-portfolio.vercel.app/',
+    siteName: 'Zachary Thatcher',
     locale: 'en_US',
     type: 'website',
   },
@@ -47,10 +47,6 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
-  },
-  twitter: {
-    title: 'Lee Robinson',
-    card: 'summary_large_image',
   },
   verification: {
     google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
