@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "install": "bun install",
     "build": "npm run setup && next build",
     "build-only": "next build",
     "start": "next start",
