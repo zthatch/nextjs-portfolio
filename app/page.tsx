@@ -1,6 +1,5 @@
 import Image from "next/image";
 import avatar from "app/avatar.png";
-import { DefaultInsertValueNode } from "kysely";
 
 export default function Page() {
   return (
