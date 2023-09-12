@@ -34,7 +34,7 @@ const computedFields = {
       url: `https://zachary-thatcher-portfolio.vercel.app/blog/${doc._raw.flattenedPath}`,
       author: {
         '@type': 'Person',
-        name: 'Lee Robinson',
+        name: 'Zachary Thatcher',
       },
     }),
   },
