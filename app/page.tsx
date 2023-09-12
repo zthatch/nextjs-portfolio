@@ -14,7 +14,7 @@ export default function Page() {
           Zachary Thatcher <br/> Senior Softare Engineer <br/> Geli/Qcells
         </p>
         <p className="text-right font-bold prose prose-neutral dark:prose-invert">
-          Contact Info: <br/> zachary.alan.thatcher@gmail.com <br/> 860-839-0933
+          Contact Info: <br/> Email: zachary.alan.thatcher@gmail.com <br/> Cell Phone: 860-839-0933
         </p>
       </div>
 
